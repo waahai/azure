@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, GO vs AWS!")
+    fmt.Fprintf(w, "Hello, GO vs Azure!")
 }
 
 func main() {
